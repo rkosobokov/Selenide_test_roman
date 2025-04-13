@@ -4,10 +4,12 @@ public class MyClass {
     public String publicVar2;
 
     // Статичная переменная
-    public static int staticVar;
+    static int staticVar;
 
     // Метод, использующий статичную переменную
     public void printStaticVar() {
-        System.out.println("Статичная переменная: " + staticVar);
+       System.out.println("Статичная переменная: " + staticVar);
     }
 }
+
+

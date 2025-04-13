@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9dea9fb-5a16-4dfd-a23d-aa70bacb3944" name="Changes" comment="добавлен maven + задание модуля 3">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Car1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Car2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Car3.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../getting-started-java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../getting-started-java-login/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../onboarding-examples-master.7z" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../selenium_tests/mck-tests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +33,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="master" />
-        <entry key="$PROJECT_DIR$" value="branch22" />
+        <entry key="$PROJECT_DIR$" value="brach2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,11 +52,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Car1.executor": "Run",
+    "Application.Car2.executor": "Run",
+    "Application.Car3.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "brach2",
+    "git-widget-placeholder": "brach3",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -57,7 +67,35 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Car3">
+    <configuration name="Car1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Car1" />
+      <module name="Selenide_test_roman" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Car2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Car2" />
+      <module name="Selenide_test_roman" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Car3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Car3" />
+      <module name="Selenide_test_roman" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Selenide_test_roman" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Selenide_test_roman_super" />
       <method v="2">
@@ -71,6 +109,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Car3" />
+        <item itemvalue="Application.Car2" />
+        <item itemvalue="Application.Car1" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -88,6 +134,15 @@
       <option name="presentableId" value="Default" />
       <updated>1742732168793</updated>
     </task>
+    <task id="LOCAL-00001" summary="добавлен maven + задание модуля 3">
+      <option name="closed" value="true" />
+      <created>1742737640607</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742737640607</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +158,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="добавлен maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлен maven" />
+    <MESSAGE value="добавлен maven + задание модуля 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлен maven + задание модуля 3" />
   </component>
 </project>
