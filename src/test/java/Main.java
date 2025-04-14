@@ -13,8 +13,15 @@ public class Main {
         // Выводим значения переменных
         System.out.println("publicVar1: " + obj.publicVar1);
         System.out.println("publicVar2: " + obj.publicVar2);
+       // System.out.println("staticVar3: " + obj.staticVar);
+
 
         // Используем метод, который работает со статичной переменной
-        obj.printStaticVar();
+        // obj.printStaticVar();
+        // for повторяет метод 10 раз
+        for (int i = 0; i < 3; i++) {
+            obj.printStaticVar();
+        }
+
     }
 }
