@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9dea9fb-5a16-4dfd-a23d-aa70bacb3944" name="Changes" comment="задание модуля 4&#10;Создан класс Car и 3 экзменмляра класса Car1, Car2,Car3">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BankDepositFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BankDepositWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FirstApp.java" afterDir="false" />
+    <list default="true" id="e9dea9fb-5a16-4dfd-a23d-aa70bacb3944" name="Changes" comment="задание модуля 6&#10;Создан класс MainArray">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../getting-started-java" beforeDir="false" afterPath="$PROJECT_DIR$/../getting-started-java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../selenium_tests/mck-tests" beforeDir="false" afterPath="$PROJECT_DIR$/../selenium_tests/mck-tests" afterDir="false" />
@@ -28,7 +31,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="master" />
-        <entry key="$PROJECT_DIR$" value="brach2" />
+        <entry key="$PROJECT_DIR$" value="brach4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,11 +55,15 @@
     "Application.Car1.executor": "Run",
     "Application.Car2.executor": "Run",
     "Application.Car3.executor": "Run",
+    "Application.Circle.executor": "Run",
+    "Application.Developer.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MainArray.executor": "Run",
+    "Application.Manager.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "brach3",
+    "git-widget-placeholder": "brach5",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -64,37 +71,37 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BankDepositWhile">
-    <configuration name="BankDepositFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BankDepositFor" />
+  <component name="RunManager" selected="Application.Circle">
+    <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Circle" />
       <module name="Selenide_test_roman" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankDepositWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BankDepositWhile" />
+    <configuration name="Developer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Developer" />
       <module name="Selenide_test_roman" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Car1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Car1" />
+    <configuration name="MainArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainArray" />
       <module name="Selenide_test_roman" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Car2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Car2" />
+    <configuration name="Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Manager" />
       <module name="Selenide_test_roman" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Car3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Car3" />
+    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Rectangle" />
       <module name="Selenide_test_roman" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BankDepositWhile" />
-        <item itemvalue="Application.BankDepositFor" />
-        <item itemvalue="Application.Car1" />
-        <item itemvalue="Application.Car3" />
-        <item itemvalue="Application.Car2" />
+        <item itemvalue="Application.Circle" />
+        <item itemvalue="Application.Rectangle" />
+        <item itemvalue="Application.Manager" />
+        <item itemvalue="Application.Developer" />
+        <item itemvalue="Application.MainArray" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744551049419</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="задание модуля 6&#10;Создан класс MainArray">
+      <option name="closed" value="true" />
+      <created>1745398788474</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745398788474</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +188,8 @@
     <MESSAGE value="добавлен maven" />
     <MESSAGE value="добавлен maven + задание модуля 3" />
     <MESSAGE value="задание модуля 4&#10;Создан класс Car и 3 экзменмляра класса Car1, Car2,Car3" />
-    <option name="LAST_COMMIT_MESSAGE" value="задание модуля 4&#10;Создан класс Car и 3 экзменмляра класса Car1, Car2,Car3" />
+    <MESSAGE value="задание модуля 5&#10;Созданы классы BankDepositFor, BankDepositWhile" />
+    <MESSAGE value="задание модуля 6&#10;Создан класс MainArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="задание модуля 6&#10;Создан класс MainArray" />
   </component>
 </project>
