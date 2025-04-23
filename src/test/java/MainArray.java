@@ -1,7 +1,16 @@
+import java.util.Random;
+
 public class MainArray {
     public static void main(String[] args) {
         // Создаем массив
         String[] strings = {"привет", "ПОКА", "гипербола"};
+
+        // Случайное число
+        Random random = new Random();
+        int randomIndex = random.nextInt(3); // рандом из 3х
+
+        // Выводим случайно выбранную строку
+        System.out.println("Случайно выбранная строка: " + strings[randomIndex]);
 
         // Выводим 1ю строку в верхнем регистре
         String firstUpper = strings[0].toUpperCase();

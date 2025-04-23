@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9dea9fb-5a16-4dfd-a23d-aa70bacb3944" name="Changes" comment="задание модуля 7&#10;Классы: Employee, Manager , Developer, Shape, Circle, Rectangle">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Guitar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InstrumentData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Piano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Playable.java" afterDir="false" />
+    <list default="true" id="e9dea9fb-5a16-4dfd-a23d-aa70bacb3944" name="Changes" comment="задание модуля 9&#10;Изменен класс MainArray. &#10;Вывод рандомной строки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../getting-started-java" beforeDir="false" afterPath="$PROJECT_DIR$/../getting-started-java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../selenium_tests/mck-tests" beforeDir="false" afterPath="$PROJECT_DIR$/../selenium_tests/mck-tests" afterDir="false" />
     </list>
@@ -29,7 +26,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="master" />
-        <entry key="$PROJECT_DIR$" value="brach6" />
+        <entry key="$PROJECT_DIR$" value="brach7" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,7 +61,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "brach7",
+    "git-widget-placeholder": "brach8",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -72,7 +69,7 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Piano">
+  <component name="RunManager" selected="Application.MainArray">
     <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Circle" />
       <module name="Selenide_test_roman" />
@@ -87,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Manager" />
+    <configuration name="MainArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainArray" />
       <module name="Selenide_test_roman" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainArray" />
         <item itemvalue="Application.Piano" />
         <item itemvalue="Application.Guitar" />
         <item itemvalue="Application.Circle" />
         <item itemvalue="Application.Rectangle" />
-        <item itemvalue="Application.Manager" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745407440398</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="задание модуля 8&#10;Классы: InstrumentData, Guitar, Piano&#10;Интерфейс: Playable">
+      <option name="closed" value="true" />
+      <created>1745412111547</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745412111547</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +205,8 @@
     <MESSAGE value="задание модуля 5&#10;Созданы классы BankDepositFor, BankDepositWhile" />
     <MESSAGE value="задание модуля 6&#10;Создан класс MainArray" />
     <MESSAGE value="задание модуля 7&#10;Классы: Employee, Manager , Developer, Shape, Circle, Rectangle" />
-    <option name="LAST_COMMIT_MESSAGE" value="задание модуля 7&#10;Классы: Employee, Manager , Developer, Shape, Circle, Rectangle" />
+    <MESSAGE value="задание модуля 8&#10;Классы: InstrumentData, Guitar, Piano&#10;Интерфейс: Playable" />
+    <MESSAGE value="задание модуля 9&#10;Изменен класс MainArray. &#10;Вывод рандомной строки" />
+    <option name="LAST_COMMIT_MESSAGE" value="задание модуля 9&#10;Изменен класс MainArray. &#10;Вывод рандомной строки" />
   </component>
 </project>
