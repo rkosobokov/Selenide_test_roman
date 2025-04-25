@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e9dea9fb-5a16-4dfd-a23d-aa70bacb3944" name="Changes" comment="задание модуля 9&#10;Изменен класс MainArray. &#10;Вывод рандомной строки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../getting-started-java" beforeDir="false" afterPath="$PROJECT_DIR$/../getting-started-java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../selenium_tests/mck-tests" beforeDir="false" afterPath="$PROJECT_DIR$/../selenium_tests/mck-tests" afterDir="false" />
     </list>
@@ -26,7 +27,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="master" />
-        <entry key="$PROJECT_DIR$" value="brach7" />
+        <entry key="$PROJECT_DIR$" value="brach8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,16 +53,22 @@
     "Application.Car3.executor": "Run",
     "Application.Circle.executor": "Run",
     "Application.Developer.executor": "Run",
+    "Application.GoogleTest.executor": "Run",
     "Application.Guitar.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainArray.executor": "Run",
     "Application.Manager.executor": "Run",
     "Application.Piano.executor": "Run",
     "Application.Rectangle.executor": "Run",
+    "JUnit.GoogleTest.executor": "Run",
+    "JUnit.GoogleTest.googleSearchTest.executor": "Run",
+    "JUnit.GoogleTest.searchTest.executor": "Run",
+    "JUnit.YandexSearchTest.executor": "Run",
+    "JUnit.YandexTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "brach8",
+    "git-widget-placeholder": "brach9",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -69,38 +76,47 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainArray">
-    <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Circle" />
+  <component name="RunManager" selected="JUnit.YandexTest">
+    <configuration name="GoogleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoogleTest" />
       <module name="Selenide_test_roman" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Guitar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Guitar" />
+    <configuration name="GoogleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenide_test_roman" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GoogleTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainArray" />
+    <configuration name="GoogleTest.searchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenide_test_roman" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GoogleTest" />
+      <option name="METHOD_NAME" value="searchTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Piano" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Piano" />
+    <configuration name="YandexSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenide_test_roman" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YandexSearchTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Rectangle" />
+    <configuration name="YandexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenide_test_roman" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YandexTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,20 +136,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainArray" />
-        <item itemvalue="Application.Piano" />
-        <item itemvalue="Application.Guitar" />
-        <item itemvalue="Application.Circle" />
-        <item itemvalue="Application.Rectangle" />
+        <item itemvalue="JUnit.YandexTest" />
+        <item itemvalue="JUnit.GoogleTest" />
+        <item itemvalue="JUnit.GoogleTest.searchTest" />
+        <item itemvalue="JUnit.YandexSearchTest" />
+        <item itemvalue="Application.GoogleTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
