@@ -4,4 +4,4 @@
 2. Start_Allure.bat
 Чтобы закрыть CHROME, запусить kill_Chrome.bat (windows)
 
-добавлен PageOpject, PageElements
+добавлен PageOpject, PageElements.
