@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9dea9fb-5a16-4dfd-a23d-aa70bacb3944" name="Changes" comment="задание модуля 9&#10;Изменен класс MainArray. &#10;Вывод рандомной строки">
+    <list default="true" id="e9dea9fb-5a16-4dfd-a23d-aa70bacb3944" name="Changes" comment="задание модуля 11&#10;Добавлен тест YandexTest&#10;Добавлен Selenide, Junit5, AllureR, RestAssured&#10;Docker устновлен (с прошлого проекта)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/YandexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YandexTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../getting-started-java" beforeDir="false" afterPath="$PROJECT_DIR$/../getting-started-java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../selenium_tests/mck-tests" beforeDir="false" afterPath="$PROJECT_DIR$/../selenium_tests/mck-tests" afterDir="false" />
     </list>
@@ -27,7 +26,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="master" />
-        <entry key="$PROJECT_DIR$" value="brach8" />
+        <entry key="$PROJECT_DIR$" value="brach9" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,7 +67,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "brach9",
+    "git-widget-placeholder": "brach10",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -193,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745412111547</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="задание модуля 11&#10;Добавлен тест YandexTest&#10;Добавлен Selenide, Junit5, AllureR, RestAssured&#10;Docker устновлен (с прошлого проекта)">
+      <option name="closed" value="true" />
+      <created>1745567916613</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745567916613</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +223,7 @@
     <MESSAGE value="задание модуля 7&#10;Классы: Employee, Manager , Developer, Shape, Circle, Rectangle" />
     <MESSAGE value="задание модуля 8&#10;Классы: InstrumentData, Guitar, Piano&#10;Интерфейс: Playable" />
     <MESSAGE value="задание модуля 9&#10;Изменен класс MainArray. &#10;Вывод рандомной строки" />
-    <option name="LAST_COMMIT_MESSAGE" value="задание модуля 9&#10;Изменен класс MainArray. &#10;Вывод рандомной строки" />
+    <MESSAGE value="задание модуля 11&#10;Добавлен тест YandexTest&#10;Добавлен Selenide, Junit5, AllureR, RestAssured&#10;Docker устновлен (с прошлого проекта)" />
+    <option name="LAST_COMMIT_MESSAGE" value="задание модуля 11&#10;Добавлен тест YandexTest&#10;Добавлен Selenide, Junit5, AllureR, RestAssured&#10;Docker устновлен (с прошлого проекта)" />
   </component>
 </project>
