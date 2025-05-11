@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9dea9fb-5a16-4dfd-a23d-aa70bacb3944" name="Changes" comment="задание модуля 11&#10;Добавлен тест YandexTest&#10;Добавлен Selenide, Junit5, AllureR, RestAssured&#10;Docker устновлен (с прошлого проекта)" />
+    <list default="true" id="e9dea9fb-5a16-4dfd-a23d-aa70bacb3944" name="Changes" comment="задание модуля 12&#10;PageOpject&#10;Добавлены классы&#10;BaseTest, YandexMainPage, YandexSearchResultsPage, YandexTest">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BoxCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ExceptionHandlingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/YandexMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YandexMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/YandexSearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YandexSearchResultsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/YandexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YandexTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,42 +46,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BankDepositFor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BankDepositWhile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Car1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Car2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Car3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Circle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Developer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GoogleTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Guitar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Manager.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Piano.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Rectangle.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GoogleTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GoogleTest.googleSearchTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GoogleTest.searchTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.YandexSearchTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.YandexTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;brach10&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BankDepositFor.executor": "Run",
+    "Application.BankDepositWhile.executor": "Run",
+    "Application.BoxCollection.executor": "Run",
+    "Application.Car1.executor": "Run",
+    "Application.Car2.executor": "Run",
+    "Application.Car3.executor": "Run",
+    "Application.Circle.executor": "Run",
+    "Application.Developer.executor": "Run",
+    "Application.GoogleTest.executor": "Run",
+    "Application.Guitar.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainArray.executor": "Run",
+    "Application.Manager.executor": "Run",
+    "Application.Piano.executor": "Run",
+    "Application.Rectangle.executor": "Run",
+    "JUnit.ExceptionHandlingTest.executor": "Run",
+    "JUnit.GoogleTest.executor": "Run",
+    "JUnit.GoogleTest.googleSearchTest.executor": "Run",
+    "JUnit.GoogleTest.searchTest.executor": "Run",
+    "JUnit.YandexSearchTest.executor": "Run",
+    "JUnit.YandexTest.exception.executor": "Run",
+    "JUnit.YandexTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "brach10",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.YandexTest">
-    <configuration name="GoogleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoogleTest" />
+}]]></component>
+  <component name="RunManager" selected="Application.BoxCollection">
+    <configuration name="BoxCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BoxCollection" />
       <module name="Selenide_test_roman" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionHandlingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenide_test_roman" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandlingTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,30 +107,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleTest.searchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenide_test_roman" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GoogleTest" />
-      <option name="METHOD_NAME" value="searchTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YandexSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenide_test_roman" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="YandexSearchTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="YandexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenide_test_roman" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="YandexTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YandexTest.exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenide_test_roman" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YandexTest" />
+      <option name="METHOD_NAME" value="exception" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BoxCollection" />
+        <item itemvalue="JUnit.ExceptionHandlingTest" />
         <item itemvalue="JUnit.YandexTest" />
+        <item itemvalue="JUnit.YandexTest.exception" />
         <item itemvalue="JUnit.GoogleTest" />
-        <item itemvalue="JUnit.GoogleTest.searchTest" />
-        <item itemvalue="JUnit.YandexSearchTest" />
-        <item itemvalue="Application.GoogleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +222,31 @@
       <option name="project" value="LOCAL" />
       <updated>1746430149922</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="задание модуля 12&#10;PageOpject&#10;Добавлены классы&#10;BaseTest, YandexMainPage, YandexSearchResultsPage, YandexTest">
+      <option name="closed" value="true" />
+      <created>1746430249445</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746430249445</updated>
+    </task>
+    <task id="LOCAL-00010" summary="задание модуля 12&#10;PageOpject&#10;Добавлены классы&#10;BaseTest, YandexMainPage, YandexSearchResultsPage, YandexTest">
+      <option name="closed" value="true" />
+      <created>1746430349684</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1746430349684</updated>
+    </task>
+    <task id="LOCAL-00011" summary="задание модуля 12&#10;PageOpject&#10;Добавлены классы&#10;BaseTest, YandexMainPage, YandexSearchResultsPage, YandexTest">
+      <option name="closed" value="true" />
+      <created>1746430408788</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1746430408788</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +270,7 @@
     <MESSAGE value="задание модуля 8&#10;Классы: InstrumentData, Guitar, Piano&#10;Интерфейс: Playable" />
     <MESSAGE value="задание модуля 9&#10;Изменен класс MainArray. &#10;Вывод рандомной строки" />
     <MESSAGE value="задание модуля 11&#10;Добавлен тест YandexTest&#10;Добавлен Selenide, Junit5, AllureR, RestAssured&#10;Docker устновлен (с прошлого проекта)" />
-    <option name="LAST_COMMIT_MESSAGE" value="задание модуля 11&#10;Добавлен тест YandexTest&#10;Добавлен Selenide, Junit5, AllureR, RestAssured&#10;Docker устновлен (с прошлого проекта)" />
+    <MESSAGE value="задание модуля 12&#10;PageOpject&#10;Добавлены классы&#10;BaseTest, YandexMainPage, YandexSearchResultsPage, YandexTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="задание модуля 12&#10;PageOpject&#10;Добавлены классы&#10;BaseTest, YandexMainPage, YandexSearchResultsPage, YandexTest" />
   </component>
 </project>
