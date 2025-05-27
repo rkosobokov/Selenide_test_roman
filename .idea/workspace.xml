@@ -4,11 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9dea9fb-5a16-4dfd-a23d-aa70bacb3944" name="Changes" comment="задание модуля 9&#10;Изменен класс MainArray. &#10;Вывод рандомной строки">
+    <list default="true" id="e9dea9fb-5a16-4dfd-a23d-aa70bacb3944" name="Changes" comment="задание модуля 14&#10;классы&#10;Box, BoxCollection">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../getting-started-java" beforeDir="false" afterPath="$PROJECT_DIR$/../getting-started-java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../selenium_tests/mck-tests" beforeDir="false" afterPath="$PROJECT_DIR$/../selenium_tests/mck-tests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BankDepositFor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BankDepositWhile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Box.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BoxCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Car1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Car2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Car3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Developer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExceptionHandlingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Guitar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InstrumentData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Piano.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Playable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/YandexSearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YandexSearchResultsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/YandexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YandexTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +51,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="master" />
-        <entry key="$PROJECT_DIR$" value="brach7" />
+        <entry key="$PROJECT_DIR$" value="brach12" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,60 +72,93 @@
   "keyToString": {
     "Application.BankDepositFor.executor": "Run",
     "Application.BankDepositWhile.executor": "Run",
+    "Application.BoxCollection.executor": "Run",
     "Application.Car1.executor": "Run",
     "Application.Car2.executor": "Run",
     "Application.Car3.executor": "Run",
     "Application.Circle.executor": "Run",
     "Application.Developer.executor": "Run",
+    "Application.GoogleTest.executor": "Run",
     "Application.Guitar.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainArray.executor": "Run",
     "Application.Manager.executor": "Run",
     "Application.Piano.executor": "Run",
     "Application.Rectangle.executor": "Run",
+    "JUnit.ExceptionHandlingTest.executor": "Run",
+    "JUnit.FormSubmissionTest.executor": "Run",
+    "JUnit.GoogleTest.executor": "Run",
+    "JUnit.GoogleTest.googleSearchTest.executor": "Run",
+    "JUnit.GoogleTest.searchTest.executor": "Run",
+    "JUnit.YandexSearchTest.executor": "Run",
+    "JUnit.YandexTest.exception.executor": "Run",
+    "JUnit.YandexTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "brach8",
+    "git-widget-placeholder": "brach13",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.build"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainArray">
-    <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Circle" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\Selenide_test_roman\src\test\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.YandexTest">
+    <configuration name="BoxCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BoxCollection" />
       <module name="Selenide_test_roman" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Guitar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Guitar" />
+    <configuration name="ExceptionHandlingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenide_test_roman" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandlingTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainArray" />
+    <configuration name="FormSubmissionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenide_test_roman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pages" />
+      <option name="MAIN_CLASS_NAME" value="pages.FormSubmissionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Piano" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Piano" />
+    <configuration name="YandexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenide_test_roman" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YandexTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Rectangle" />
+    <configuration name="YandexTest.exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenide_test_roman" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YandexTest" />
+      <option name="METHOD_NAME" value="exception" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,20 +178,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainArray" />
-        <item itemvalue="Application.Piano" />
-        <item itemvalue="Application.Guitar" />
-        <item itemvalue="Application.Circle" />
-        <item itemvalue="Application.Rectangle" />
+        <item itemvalue="JUnit.YandexTest" />
+        <item itemvalue="JUnit.FormSubmissionTest" />
+        <item itemvalue="Application.BoxCollection" />
+        <item itemvalue="JUnit.ExceptionHandlingTest" />
+        <item itemvalue="JUnit.YandexTest.exception" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -184,7 +235,103 @@
       <option name="project" value="LOCAL" />
       <updated>1745412111547</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="задание модуля 11&#10;Добавлен тест YandexTest&#10;Добавлен Selenide, Junit5, AllureR, RestAssured&#10;Docker устновлен (с прошлого проекта)">
+      <option name="closed" value="true" />
+      <created>1745567916613</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745567916613</updated>
+    </task>
+    <task id="LOCAL-00007" summary="задание модуля 11&#10;Добавлен тест YandexTest&#10;Добавлен Selenide, Junit5, AllureR, RestAssured&#10;Docker устновлен (с прошлого проекта)">
+      <option name="closed" value="true" />
+      <created>1746430127256</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746430127256</updated>
+    </task>
+    <task id="LOCAL-00008" summary="задание модуля 11&#10;Добавлен тест YandexTest&#10;Добавлен Selenide, Junit5, AllureR, RestAssured&#10;Docker устновлен (с прошлого проекта)">
+      <option name="closed" value="true" />
+      <created>1746430149922</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1746430149922</updated>
+    </task>
+    <task id="LOCAL-00009" summary="задание модуля 12&#10;PageOpject&#10;Добавлены классы&#10;BaseTest, YandexMainPage, YandexSearchResultsPage, YandexTest">
+      <option name="closed" value="true" />
+      <created>1746430249445</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746430249445</updated>
+    </task>
+    <task id="LOCAL-00010" summary="задание модуля 12&#10;PageOpject&#10;Добавлены классы&#10;BaseTest, YandexMainPage, YandexSearchResultsPage, YandexTest">
+      <option name="closed" value="true" />
+      <created>1746430349684</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1746430349684</updated>
+    </task>
+    <task id="LOCAL-00011" summary="задание модуля 12&#10;PageOpject&#10;Добавлены классы&#10;BaseTest, YandexMainPage, YandexSearchResultsPage, YandexTest">
+      <option name="closed" value="true" />
+      <created>1746430408788</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1746430408788</updated>
+    </task>
+    <task id="LOCAL-00012" summary="задание модуля 12 (после замечания)&#10;PageOpject, PageElements&#10;классы&#10;BaseTest, YandexMainPage, YandexSearchResultsPage, YandexTest">
+      <option name="closed" value="true" />
+      <created>1746948960079</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1746948960079</updated>
+    </task>
+    <task id="LOCAL-00013" summary="задание модуля 13 &#10;&#10;класс&#10;ExceptionHandlingTest">
+      <option name="closed" value="true" />
+      <created>1746949529808</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1746949529808</updated>
+    </task>
+    <task id="LOCAL-00014" summary="задание модуля 13 &#10;класс&#10;ExceptionHandlingTest.">
+      <option name="closed" value="true" />
+      <created>1746949622052</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1746949622052</updated>
+    </task>
+    <task id="LOCAL-00015" summary="задание модуля 13 &#10;класс&#10;ExceptionHandlingTest.">
+      <option name="closed" value="true" />
+      <created>1746949825239</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1746949825239</updated>
+    </task>
+    <task id="LOCAL-00016" summary="задание модуля 14&#10;классы&#10;Box, BoxCollection">
+      <option name="closed" value="true" />
+      <created>1746949998775</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1746949998775</updated>
+    </task>
+    <task id="LOCAL-00017" summary="задание модуля 14&#10;классы&#10;Box, BoxCollection">
+      <option name="closed" value="true" />
+      <created>1746950112056</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1746950112056</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +354,12 @@
     <MESSAGE value="задание модуля 7&#10;Классы: Employee, Manager , Developer, Shape, Circle, Rectangle" />
     <MESSAGE value="задание модуля 8&#10;Классы: InstrumentData, Guitar, Piano&#10;Интерфейс: Playable" />
     <MESSAGE value="задание модуля 9&#10;Изменен класс MainArray. &#10;Вывод рандомной строки" />
-    <option name="LAST_COMMIT_MESSAGE" value="задание модуля 9&#10;Изменен класс MainArray. &#10;Вывод рандомной строки" />
+    <MESSAGE value="задание модуля 11&#10;Добавлен тест YandexTest&#10;Добавлен Selenide, Junit5, AllureR, RestAssured&#10;Docker устновлен (с прошлого проекта)" />
+    <MESSAGE value="задание модуля 12&#10;PageOpject&#10;Добавлены классы&#10;BaseTest, YandexMainPage, YandexSearchResultsPage, YandexTest" />
+    <MESSAGE value="задание модуля 12 (после замечания)&#10;PageOpject, PageElements&#10;классы&#10;BaseTest, YandexMainPage, YandexSearchResultsPage, YandexTest" />
+    <MESSAGE value="задание модуля 13 &#10;&#10;класс&#10;ExceptionHandlingTest" />
+    <MESSAGE value="задание модуля 13 &#10;класс&#10;ExceptionHandlingTest." />
+    <MESSAGE value="задание модуля 14&#10;классы&#10;Box, BoxCollection" />
+    <option name="LAST_COMMIT_MESSAGE" value="задание модуля 14&#10;классы&#10;Box, BoxCollection" />
   </component>
 </project>
