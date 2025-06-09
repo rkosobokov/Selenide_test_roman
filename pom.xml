@@ -104,6 +104,21 @@
             <version>7.9.0</version>
             <scope>test</scope>
         </dependency>
+        <!-- RestAssured -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>5.5.5</version> <!-- или актуальная версия -->
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Для работы с JSON -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>5.5.5</version>
+            <scope>test</scope>
+        </dependency>
 
 
 

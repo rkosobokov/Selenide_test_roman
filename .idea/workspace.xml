@@ -4,36 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9dea9fb-5a16-4dfd-a23d-aa70bacb3944" name="Changes" comment="задание модуля 14&#10;классы&#10;Box, BoxCollection">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest1.java" afterDir="false" />
+    <list default="true" id="e9dea9fb-5a16-4dfd-a23d-aa70bacb3944" name="Changes" comment="задание модуля 12&#10;классы исправлены&#10;YandexSearchResultsPage&#10;YandexTest">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BookingApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BookingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BookingUpdateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CreateBookingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DateOfBirthPicker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HobbiesCheckboxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PracticeFormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PracticeFormTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StateCitySelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SubjectsInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BankDepositFor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BankDepositWhile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Box.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BoxCollection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Car1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Car2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Car3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Developer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExceptionHandlingTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Guitar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InstrumentData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Manager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Piano.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Playable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/YandexSearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YandexSearchResultsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/YandexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YandexTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/YandexMainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/YandexSearchResultsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/YandexTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/FormSubmissionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/pagePageElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/pagePageObject.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +42,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="master" />
-        <entry key="$PROJECT_DIR$" value="brach12" />
+        <entry key="$PROJECT_DIR$" value="brach14" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,6 +68,7 @@
     "Application.Car2.executor": "Run",
     "Application.Car3.executor": "Run",
     "Application.Circle.executor": "Run",
+    "Application.CreateBookingTest.executor": "Run",
     "Application.Developer.executor": "Run",
     "Application.GoogleTest.executor": "Run",
     "Application.Guitar.executor": "Run",
@@ -85,18 +77,26 @@
     "Application.Manager.executor": "Run",
     "Application.Piano.executor": "Run",
     "Application.Rectangle.executor": "Run",
+    "Application.UpdateBookingTest.executor": "Run",
+    "JUnit.BookingApiTest.executor": "Run",
+    "JUnit.BookingTest.executor": "Run",
+    "JUnit.BookingUpdateTest.executor": "Run",
+    "JUnit.BookingUpdateTest.updateBookingTest.executor": "Run",
     "JUnit.ExceptionHandlingTest.executor": "Run",
+    "JUnit.FormSubmissionTest (1).executor": "Run",
     "JUnit.FormSubmissionTest.executor": "Run",
+    "JUnit.FormSubmissionTest.testFormSubmission.executor": "Run",
     "JUnit.GoogleTest.executor": "Run",
     "JUnit.GoogleTest.googleSearchTest.executor": "Run",
     "JUnit.GoogleTest.searchTest.executor": "Run",
+    "JUnit.PracticeFormTest.executor": "Run",
     "JUnit.YandexSearchTest.executor": "Run",
     "JUnit.YandexTest.exception.executor": "Run",
     "JUnit.YandexTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "brach13",
+    "git-widget-placeholder": "brach15",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
@@ -112,53 +112,46 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.YandexTest">
-    <configuration name="BoxCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BoxCollection" />
+  <component name="RunManager" selected="JUnit.PracticeFormTest">
+    <configuration name="CreateBookingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CreateBookingTest" />
       <module name="Selenide_test_roman" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionHandlingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenide_test_roman" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExceptionHandlingTest" />
+      <option name="MAIN_CLASS_NAME" value="BookingApiTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormSubmissionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenide_test_roman" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pages" />
-      <option name="MAIN_CLASS_NAME" value="pages.FormSubmissionTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BookingTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YandexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingUpdateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenide_test_roman" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="YandexTest" />
+      <option name="MAIN_CLASS_NAME" value="BookingUpdateTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YandexTest.exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticeFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenide_test_roman" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="YandexTest" />
-      <option name="METHOD_NAME" value="exception" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="PracticeFormTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.YandexTest" />
-        <item itemvalue="JUnit.FormSubmissionTest" />
-        <item itemvalue="Application.BoxCollection" />
-        <item itemvalue="JUnit.ExceptionHandlingTest" />
-        <item itemvalue="JUnit.YandexTest.exception" />
+        <item itemvalue="JUnit.PracticeFormTest" />
+        <item itemvalue="JUnit.BookingTest" />
+        <item itemvalue="JUnit.BookingUpdateTest" />
+        <item itemvalue="Application.CreateBookingTest" />
+        <item itemvalue="JUnit.BookingApiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +324,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746950112056</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="задание модуля 12&#10;классы исправлены&#10;YandexSearchResultsPage&#10;YandexTest">
+      <option name="closed" value="true" />
+      <created>1748279053351</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1748279053351</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -360,6 +361,7 @@
     <MESSAGE value="задание модуля 13 &#10;&#10;класс&#10;ExceptionHandlingTest" />
     <MESSAGE value="задание модуля 13 &#10;класс&#10;ExceptionHandlingTest." />
     <MESSAGE value="задание модуля 14&#10;классы&#10;Box, BoxCollection" />
-    <option name="LAST_COMMIT_MESSAGE" value="задание модуля 14&#10;классы&#10;Box, BoxCollection" />
+    <MESSAGE value="задание модуля 12&#10;классы исправлены&#10;YandexSearchResultsPage&#10;YandexTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="задание модуля 12&#10;классы исправлены&#10;YandexSearchResultsPage&#10;YandexTest" />
   </component>
 </project>
